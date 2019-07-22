@@ -2,3 +2,12 @@
   box-sizing: border-box;
   background-color: #fafafa;
 }
+
+main{
+  margin-top: 50px;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
