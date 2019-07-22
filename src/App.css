@@ -11,3 +11,8 @@ main{
   margin-left: auto;
   margin-right: auto;
 }
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,6 +1,20 @@
 .painting-container{
-  width: 800px;
+  width: 95vw;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
+  height: 700px;
+
+  /* to prevent  highlighting of images if user clicks next/previous button rapidly*/
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.arrow-button{
+  font-size: 90px;
+  color: #b3b3b3;
+  cursor: pointer;
 }
